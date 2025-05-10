@@ -17,6 +17,7 @@ export const metadata = {
   keywords: "Sesiones Akryonitas, Rejillas canalizadas, Arte canalizado, Terapia electromagnetica, Terapia cuantica, Terapia electromagnetica, ",
   icons: {
     icon: "/cuarzo-rosa.png",
+    apple: "/apple-touch-icon.PNG", 
   },
 
 };
