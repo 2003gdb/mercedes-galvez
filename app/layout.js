@@ -12,8 +12,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mercedes | Web Developer & UI/UX Designer",
-  description: "Personal portfolio and contact information for Mercedes",
+  title: "Mercedes Galvez Diaz Barriga",
+  description: "Terapias electromagnticas",
+  keywords: "Sesiones Akryonitas, Rejillas canalizadas, Arte canalizado, Terapia electromagnetica, Terapia cuantica, Terapia electromagnetica, ",
+  icons: {
+    icon: "/cuarzo-rosa.png",
+  },
+
 };
 
 export default function RootLayout({ children }) {
