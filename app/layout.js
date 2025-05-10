@@ -12,12 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mercedes Galvez Diaz Barriga",
+  title: "Mercedes Galvez",
   description: "Terapias electromagnticas",
   keywords: "Sesiones Akryonitas, Rejillas canalizadas, Arte canalizado, Terapia electromagnetica, Terapia cuantica, Terapia electromagnetica, ",
   icons: {
-    icon: "/cuarzo-rosa.PNG",
-    apple: "/apple-touch-icon.png", 
+    icon: "/cuarzo-rosa.png"
   },
 
 };
