@@ -15,11 +15,11 @@ export default function HeroSection() {
       </div>
       <Card className="w-full max-w-md mx-4 bg-white/10 backdrop-blur-xs border-none absolute top-1/2 transform -translate-y-1/2 z-20 p-3 md:p-5">
         <CardContent className="flex flex-col items-center p-4 px-2">
-          <h1 className="text-3xl tracking-tight">Terapia Electromagnética</h1>
-          <p className="text-xl text-gray-700 pt-2">
+          <h1 className="text-3xl tracking-tight" style={{ fontFamily: 'var(--font-lexend-deca)' }} >Terapia Electromagnética</h1>
+          <p className="text-xl text-gray-700 pt-2 font-lexend-zetta">
             Mercedes Galvez Diaz Barriga
           </p>
-          <p className="text-md text-gray-700">
+          <p className="text-md text-gray-700 font-lexend-zetta">
             +52 (443) 1858 551
           </p>
         </CardContent>
