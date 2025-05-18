@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Lexend_Zetta, Lexend_Deca} from "next/font/google";
+import { Geist, Geist_Mono, Lexend_Mega, Lexend_Deca} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,8 +11,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const lexendZetta = Lexend_Zetta({
-  variable: "--font-lexend-zetta",
+const lexendMega = Lexend_Mega({
+  variable: "--font-lexend-mega",
   subsets: ["latin"],
   display: "swap",
 });
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lexendZetta.variable} ${lexendDeca.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lexendMega.variable} ${lexendDeca.variable} antialiased`}
       >
         {children}
       </body>
