@@ -16,7 +16,7 @@ export default function HeroSection() {
         <CardContent className="flex flex-col items-center p-4 px-2">
           <h1 className="text-3xl tracking-tight" style={{ fontFamily: 'var(--font-lexend-mega)' }} >Terapia Electromagnética</h1>
           <p className="text-xl text-gray-700 pt-2 font-lexend-mega">
-            Mercedes Galvez Diaz Barriga
+            Mercedes Galvez
           </p>
           <p className="text-md text-gray-700 font-lexend-mega">
             +52 (443) 1858 551
